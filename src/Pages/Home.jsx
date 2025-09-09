@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel } from "../components/publications_carousel"
+// import { Carousel } from "../components/publications_carousel"
 import { slides } from "../data/publications.json"
 // import ReactTypingEffect from 'react-typing-effect';
 // import { Typewriter } from '../Components/typewriter'
