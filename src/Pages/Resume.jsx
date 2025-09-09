@@ -17,7 +17,7 @@ class Resume extends Component{
                         <h2>Gareth Siôn Jones</h2>
                         <h4 style={{color: 'grey'}}>Physicist | Programmer | Data Scientist</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
-                        <p>I am a physicist working towards developing quantum network nodes using solid state defects in diamond. I alsp have a background in electronics engineering, software engineering, and data science, and I have applied these areas of expertise in academia, the public sector, and the private sector.</p>
+                        <p>I am a physicist working towards developing quantum network nodes using solid state defects in diamond. I also have a background in electronics engineering, software engineering, and data science, and I have applied these areas of expertise in academia, the public sector, and the private sector.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                         {/* <h5>Address</h5>
                         <p>1 Hacker Way Menlo Park, 94025</p> */}
@@ -59,7 +59,7 @@ class Resume extends Component{
                     <Experience 
                         startYear={2020}
                         // endYear={2012}
-                        jobName="Northrop Grumman"
+                        jobName="Northrop Grumman (MoD)"
                         jobDescription="Software Developer. Provided bespoke data driven solutions for tackling cyber security threats, working on projects for national security. Produced software applications in a variety of languages, in a full-stack role. I was required to  use a variety of different tech stacks on each project, and primarily employed C++ and GoLang for back-end microservices communicating front-end services to SQL, NoSQL, MongoDB database structures, and React.js for front-end web application development. Worked closely with development teams under an agile framework."
                     />
 

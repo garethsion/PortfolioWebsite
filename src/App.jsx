@@ -25,6 +25,9 @@ import FibreCoupling from './Pages/Tutorials/Optics/FibreCoupling'
 import Focussing from './Pages/Tutorials/Optics/Focussing'
 import FDTDLanding from './Pages/Tutorials/fdtd/fdtd_landing'
 import Media from './Pages/Media'
+import SolidStateDiamondDefects from './Pages/Research/SolidStateDiamondDefects'
+import QuantumEnhancedSensing from './Pages/Research/QuantumEnhancedSensing'
+import SupercondDevices from './Pages/Research/SupercondDevices'
 
 const App = () => {
 
@@ -35,6 +38,10 @@ const App = () => {
         <Route path='/resume' element={<Resume />}/>
         <Route path='/biography' element={<About />}/>
         <Route path='/research' element={<Research />}/>
+          <Route path='diamonddefects' element={<SolidStateDiamondDefects/>}/>
+          <Route path='quantumsensing' element={<QuantumEnhancedSensing/>}/>
+          <Route path='superconddevices' element={<SupercondDevices/>}/>
+
         <Route path='/contact' element={<ContactLayout />}>
           <Route path='info' element={<ContactInfo/>}/>
           <Route path='form' element={<ContactForm/>}/>
