@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', 'sans-serif';
+  /* background: rgb(27,25,26);
+  background: radial-gradient(circle, rgba(27,25,26,1) 0%, rgba(144,159,176,1) 100%); */
+  /* background: #0F2027;   */
+	/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   */
+	/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  /* background: #0F2027;  */
+	/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   */
+	/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+}
+.navbar ul{
+  padding: 10px 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  /* background: #0F2027; */
+	/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   */
+	/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  background: none;
+  /* background: #0F2027; */
+	/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+	/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+}
+a.active{
+  color: red;
+}
+.navbar button{
+  background: #000;
+  color: #fff;
+  padding: 12px 25px;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+}
+.container h1{
+  font-size: 70px;
+  font-weight: 500;
+  background: none;
+}
+.contact-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+/* .resume-div{ */
+  /* padding-top: 80em; */
+/* } */
+.resume-right-col {
+	background: #27221f;
+	color: black;
+  padding-top: 20em;
+	/* padding: 20em; */
+}
+.resume-cell{
+  padding-top: 10em;
+}
+
+.resonator-navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  /* background: #0F2027;  */
+	/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   */
+	/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+}
+.resonator-navbar ul{
+  padding: 10px 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  /* background: #0F2027; */
+	/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   */
+	/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+}
+.resonator-navbar ul li{
+  list-style-type: none;
+  /* display: inline-block; */
+  /* padding: 5px 10px; */
+  /* margin: 0 10px; */
+  /* background: none; */
+  /* background: #0F2027; */
+	/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+	/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+}
+
+.tutorial-h1{
+  font-family : 'poppins', 'sans-serif';
+  font-size : 50px;
+}
+
+.contact-body {
+	margin: auto;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	padding-top: 2em;
+}
+
+.contact-grid {
+	text-align: center;
+	justify-content: center;
+	width: 80%;
+	height: 550px;
+	background: white;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+	font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+}
+
+.contact-grid hr {
+	border-top: 5px dotted black;
+	width: 50%;
+	margin: auto;
+}
+
+.contact-list i {
+	font-size: 66px;
+	padding-right: 5rem;
+}
+
+.resonator-back-button{
+  background: #e84c0f;
+  color: #fff;
+  padding: 12px 25px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.resonator-next-button{
+  background: #1a9e0e;
+  color: #fff;
+  padding: 12px 25px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.tutorial-resonators h2{
+  margin-top: 20px;
+}
+
+.tutorial-resonators h4{
+  margin-top: 10px;
+}
+
+.embedded-p{
+  margin-top: 20px;
+}

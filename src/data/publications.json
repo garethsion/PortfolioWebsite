@@ -1,0 +1,19 @@
+{
+    "slides": [
+        {
+            "src": "src/data/publications/NatCommun16_2025.png",
+            "alt": "Publication 1",
+            "url": "https://www.nature.com/articles/s41467-025-60373-5"
+        },
+        {
+            "src": "src/data/publications/PhysRevLett129_2022.png",
+            "alt": "Publication 2",
+            "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.120503"
+        },
+        {
+            "src": "src/data/publications/arxiv_2020.png",
+            "alt": "Publication 3",
+            "url": "https://arxiv.org/abs/2003.02308"
+        }
+    ]
+}
