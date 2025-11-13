@@ -14,6 +14,8 @@ import JobsLayout from './layout/JobsLayout'
 import Jobs from './Pages/Jobs'
 import Research from './Pages/Research'
 import Tutorials from './Pages/Tutorials'
+import LectureCourses from './Pages/LectureCourses'
+import LectureMDOO from './Pages/Lectures/mdoo'
 import Resonators from './Pages/Tutorials/SCResonators/Resonators'
 import ComplexAnalysis from './Pages/Tutorials/SCResonators/ComplexAnalysis'
 import CPW from './Pages/Tutorials/SCResonators/CPW'
@@ -50,6 +52,8 @@ const App = () => {
           <Route index element={<Jobs/>}/>
         </Route>
         <Route path='/tutorials' element={<Tutorials/>}/>
+        <Route path='/lectures' element={<LectureCourses/>}/>
+        <Route path = "/lecture_mdoo" element={<LectureMDOO/>}/>
         {/* <Route path='/cpw' element={<CPW/>}/> */}
 
         <Route path = "/resonators" element={<Resonators/>}/>

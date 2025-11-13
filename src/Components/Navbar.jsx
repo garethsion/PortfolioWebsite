@@ -16,6 +16,7 @@ const Navbar = () => {
             <NavLink to='/research'><li>Research</li></NavLink>
             <NavLink to='/contact'><li>Contact</li></NavLink>
             <NavLink to='/tutorials'><li>Tutorials</li></NavLink>
+            <NavLink to='/lectures'><li>Lecture Courses</li></NavLink>
             <NavLink to='/media'><li>Media</li></NavLink>
         </ul>
         <button onClick={()=> navigate('/contact')}>Contact Me!</button>
