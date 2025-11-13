@@ -32,8 +32,8 @@ export default function LectureMDOO() {
       </Box>
     
     <div style={{ padding: "20px" }}>
-      <a
-        href="/public/documents/mdoo_lecture_notes.pdf"
+      <a 
+        href={`${process.env.PUBLIC_URL}/</div>documents/mdoo_lecture_notes.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >
