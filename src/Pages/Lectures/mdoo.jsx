@@ -33,7 +33,7 @@ export default function LectureMDOO() {
     
     <div style={{ padding: "20px" }}>
       <a 
-        href='/public/documents/mdoo_lecture_notes.pdf'
+        href='/public/Documents/mdoo_lecture_notes.pdf'
         target="_blank"
         rel="noopener noreferrer"
       >
