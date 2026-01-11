@@ -19,7 +19,8 @@ import ResonatorNavbar from '../../../Components/ResonatorNavbar';
 const KineticInductance = () => {
     const navigate = useNavigate()
     return (
-        <Grid container mt={1087} mr={5} ml={5}>
+        <Box sx={{ width: '100%', height: '100%', px: { xs: 2, sm: 3, md: 6 }, py: { xs: 2, sm: 3, md: 4 } }}>
+        <Grid container spacing={4}>
             <Grid item xs={12}>
                 <Box>
                     <ProgressBar style={{ margin: 'auto', width: '75%' }} completed={(5 / 6) * 100} customLabel=" " />
@@ -439,6 +440,7 @@ const KineticInductance = () => {
                 <button className='resonator-next-button' onClick={() => navigate('/resonators-page6')}>Next</button>
             </div>
         </Grid>
+        </Box>
     )
 }
 export default KineticInductance;
