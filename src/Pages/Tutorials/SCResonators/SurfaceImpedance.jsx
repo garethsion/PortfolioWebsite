@@ -11,7 +11,8 @@ import ResonatorNavbar from '../../../Components/ResonatorNavbar';
 const SurfaceImpedance = () => {
     const navigate = useNavigate();
     return (
-        <Grid container mt={498} mr={5} ml={5}>
+        <Box sx={{ width: '100%', height: '100%', px: { xs: 2, sm: 3, md: 6 }, py: { xs: 2, sm: 3, md: 4 } }}>
+        <Grid container spacing={4}>
             <Grid item xs={12}>
                 <Box>
                     <ProgressBar style={{ margin: 'auto', width: '75%' }} completed={(6 / 6) * 100} customLabel=" " />
@@ -267,6 +268,7 @@ const SurfaceImpedance = () => {
                 <button className='resonator-back-button' onClick={() => navigate('/resonators-page5')}>Back</button>
             </div>
         </Grid>
+    </Box>
     )
 }
 export default SurfaceImpedance;

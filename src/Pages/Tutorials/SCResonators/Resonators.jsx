@@ -11,7 +11,8 @@ const Resonators = () => {
   const navigate = useNavigate();
 
   return (
-    <Grid className="tutorial-resonators" container mt={95} mr={5} ml={5}>
+    <Box sx={{ width: '100%', height: '100%', px: { xs: 2, sm: 3, md: 6 }, py: { xs: 2, sm: 3, md: 4 } }}>
+    <Grid container spacing={4}>
       <Grid item xs={12}>
         <Box>
 
@@ -62,6 +63,7 @@ const Resonators = () => {
         {/* <ResonatorButtons/> */}
       </div>
     </Grid>
+    </Box>
   )
 }
 
