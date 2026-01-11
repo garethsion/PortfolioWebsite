@@ -10,6 +10,12 @@ import Teaching from '../Components/teaching';
 class Resume extends Component{
   render(){
     return(
+        <Box
+        sx={{
+          pt: "80px",        // exactly navbar height
+          minHeight: "100vh",
+        }}
+      >
             <Grid container ml={5} mt={430}>
                 <Grid item xs={3}>
                     <Box>
@@ -316,6 +322,7 @@ class Resume extends Component{
                 </Grid>
                 
             </Grid>
+            </Box>
     )
   }
 }
