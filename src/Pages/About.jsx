@@ -3,15 +3,8 @@ import { Grid, Box } from '@mui/material';
 
 const About = () => {
   return (
-    <Grid
-      className="tutorial-resonators"
-      container
-      mt={10}
-      // Responsive horizontal margins
-      sx={{
-        mx: { xs: 2, sm: 5, md: 15, lg: 30 }, // left/right margin changes by screen size
-      }}
-    >
+    <Box sx={{ width: '100%', height: '100%', px: { xs: 2, sm: 3, md: 6 }, py: { xs: 2, sm: 3, md: 4 } }}>
+    <Grid container spacing={4}>
       <Grid item xs={12}>
         <Box>
           <p>
@@ -44,6 +37,7 @@ const About = () => {
         </Box>
       </Grid>
     </Grid>
+    </Box>
   )
 }
 
