@@ -22,7 +22,7 @@ export default function LectureCourses() {
           <CardMedia
             component="img"
             height="140"
-            image='https://www.anl.gov/sites/www/files/styles/article_teaser_16x9/public/2019-09/Argonne_MagnonScienceHighlight_Draft02_1600x900.png?h=8abcec71&itok=yw298ns8)'
+            image='https://www.eonenergy.com/content/dam/eon-energy-com/images-2024/b2b/b2b-products/solar-panels/solar-panel-sky.jpg/jcr:content/renditions/cq5dam.web.1280.816.jpeg'
             alt="green iguana"
           />
           <CardContent>
