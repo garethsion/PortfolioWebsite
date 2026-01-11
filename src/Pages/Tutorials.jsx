@@ -8,6 +8,7 @@ import CardActionArea from '@mui/material/CardActionArea';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import { NavLink, useNavigate } from 'react-router-dom'
+import yee_cell from "../assets/yee_cell.png"
 
 export default function Tutorials() {
 
@@ -45,7 +46,7 @@ export default function Tutorials() {
           <CardMedia
             component="img"
             height="140"
-            image='https://www.anl.gov/sites/www/files/styles/article_teaser_16x9/public/2019-09/Argonne_MagnonScienceHighlight_Draft02_1600x900.png?h=8abcec71&itok=yw298ns8)'
+            image='https://www.zygo.com/-/media/project/ameteksxa/zygo/ametekzygo/industries/optics-photonics/optics-photonics-industry.jpg?la=en&revision=f682da62-c44c-469d-9322-44056c87223d'
             alt="green iguana"
           />
           
@@ -70,7 +71,7 @@ export default function Tutorials() {
           <CardMedia
             component="img"
             height="140"
-            image='https://www.anl.gov/sites/www/files/styles/article_teaser_16x9/public/2019-09/Argonne_MagnonScienceHighlight_Draft02_1600x900.png?h=8abcec71&itok=yw298ns8)'
+            image={yee_cell}
             alt="green iguana"
           />
           
